@@ -1,18 +1,3 @@
-/**
- * Title: Write a program using JavaScript on ExpertChoice
- * Author: Hasibul Islam
- * Portfolio: https://devhasibulislam.vercel.app
- * Linkedin: https://linkedin.com/in/devhasibulislam
- * GitHub: https://github.com/devhasibulislam
- * Facebook: https://facebook.com/devhasibulislam
- * Instagram: https://instagram.com/devhasibulislam
- * Twitter: https://twitter.com/devhasibulislam
- * Pinterest: https://pinterest.com/devhasibulislam
- * WhatsApp: https://wa.me/8801906315901
- * Telegram: devhasibulislam
- * Date: 15, October 2023
- */
-
 "use client";
 
 import React, { useEffect, useMemo } from "react";
@@ -44,7 +29,7 @@ const ExpertChoice = ({ className }) => {
     <Container className={className ? className : ""}>
       <section className="flex flex-col gap-y-10">
         <h1 className="text-4xl">
-          Experts Choice. <span className="">Most Favorites</span>
+          Expert's Choice. <span>Top Rated Gear for the Outdoors</span>
         </h1>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-x-6 gap-y-8">
@@ -151,3 +136,4 @@ function Badge({ props, children, className }) {
 }
 
 export default ExpertChoice;
+
