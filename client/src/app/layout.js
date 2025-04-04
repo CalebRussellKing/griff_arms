@@ -4,29 +4,34 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-  metadataBase: new URL("https://canim-csr.vercel.app"),
-  title: "Canim - Shop & eCommerce React Template",
+✅ Updated layout.js Metadata for Griffin Arms & Outdoors
+Replace your current metadata block with this:
+
+js
+Copy
+Edit
+export const metadata = {
+  metadataBase: new URL("https://griffinarms.com"), // Change to your actual domain when ready
+  title: "Griffin Arms & Outdoors – Built for the Hunt",
   description:
-    "Buy Canim - Shop & eCommerce Next.Js Template by Hasibul Islam. Canim | Shop & eCommerce React Template - a responsive React template. Canim is built with the latest Next.Js 13 App Directory",
+    "Explore Griffin Arms & Outdoors – your trusted source for firearms, hunting gear, and outdoor essentials. Precision, performance, and reliability in every product.",
   openGraph: {
-    title: "Canim - Shop & eCommerce React Template",
+    title: "Griffin Arms & Outdoors – Built for the Hunt",
     description:
-      "Buy Canim - Shop & eCommerce Next.Js Template by Hasibul Islam. Canim | Shop & eCommerce React Template - a responsive React template. Canim is built with the latest Next.Js 13 App Directory",
-    url: "https://canim-csr.vercel.app",
-    siteName: "Canim Template",
-    images:
-      "https://github.com/devhasibulislam/canim-ecommerce/blob/master/client/public/og.png?raw=true",
+      "Explore Griffin Arms & Outdoors – your trusted source for firearms, hunting gear, and outdoor essentials.",
+    url: "https://griffinarms.com",
+    siteName: "Griffin Arms & Outdoors",
+    images: "https://griffinarms.com/og-image.jpg", // Upload your image here later
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@devhasibulislam",
-    title: "Canim - Shop & eCommerce React Template",
+    site: "@griffinarmsoutdoors", // Change this if you make a Twitter/X account
+    title: "Griffin Arms & Outdoors – Built for the Hunt",
     description:
-      "Buy Canim - Shop & eCommerce Next.Js Template by Hasibul Islam. Canim | Shop & eCommerce React Template - a responsive React template. Canim is built with the latest Next.Js 13 App Directory",
-    image:
-      "https://github.com/devhasibulislam/canim-ecommerce/blob/master/client/public/og.png?raw=true",
+      "Top-tier gear for serious hunters and shooting enthusiasts. Discover Griffin Arms & Outdoors.",
+    image: "https://griffinarms.com/og-image.jpg", // Same here
   },
 };
 
