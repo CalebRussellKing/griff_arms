@@ -4,13 +4,6 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-✅ Updated layout.js Metadata for Griffin Arms & Outdoors
-Replace your current metadata block with this:
-
-js
-Copy
-Edit
-export const metadata = {
   metadataBase: new URL("https://griffinarms.com"), // Change to your actual domain when ready
   title: "Griffin Arms & Outdoors – Built for the Hunt",
   description:
@@ -27,7 +20,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@griffinarmsoutdoors", // Change this if you make a Twitter/X account
+    site: "@griffinarmsoutdoors", // Your Twitter/X handle if you make one
     title: "Griffin Arms & Outdoors – Built for the Hunt",
     description:
       "Top-tier gear for serious hunters and shooting enthusiasts. Discover Griffin Arms & Outdoors.",
